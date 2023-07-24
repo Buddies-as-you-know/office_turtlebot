@@ -1,3 +1,4 @@
+This is copy from [turtlebot3-UE](https://github.com/rapyuta-robotics/turtlebot3-UE).
 # Turtlebot UE
 
 UE Project which includes examples to use rclUE.
@@ -10,20 +11,6 @@ UE Project which includes examples to use rclUE.
 - `jammy`: Compatible with Unreal Engine 5.1 with Ubuntu 22.04
 - `UE4`: Compatible with Unreal Engine 4.27
 
-## Maps
-- Base ROS2 examples
-    - `ROS2TopicExamples`: BP and C++ ROS2 example nodes of publisher/subscriber.
-    - `ROS2ServiceExamples`: BP and C++ ROS2 example nodes of service server/client.
-    - `ROS2ActionExamples`: BP and C++ ROS2 example nodes of action server/client
-- Robot Examples(explanation of [robots](https://rapyutasimulationplugins.readthedocs.io/en/devel/robots.html))
-    - `Turtlebot3 Benchmark`: BP and C++ ROS2 turtlebot3 navigation. Burger is implemented in C++ and Waffle is implemented in BP.
-    - `RobotArmExample`: Robot arm example which can be controlled from [sensor_msgs/JointStates](http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/JointState.html). This map has SimpleArim, KinematicUR10 and PhysicsUR10.
-    - `PandaArmExample`: Panda Arm example which can be controlled from moveit2
-    - `PandaArmPhysicsExample`: Physics Panda Arm example which can be controlled from moveit2
-- Others
-    - `Entry`: Get map name from command line and transition to that maps. Mainly used to packaged project to change initial map.
-    - `LargeGround`: Large enough map for simulating many robots. Mainly used to test [distributed multi-robot simulation](https://rapyutasimulationplugins.readthedocs.io/en/devel/distributed_simulation.html).
-    - `Turtlebot3AutoTest`: Maps for Automated test.
 
 ## Setup and run
 * please check [Getting Started](https://rapyutasimulationplugins.readthedocs.io/en/doc_update/getting_started.html) as well.
@@ -35,8 +22,6 @@ UE Project which includes examples to use rclUE.
     ```
     cd turtlebot3-UE
     export UE5_DIR=<path to UE5>
-    ./update_project_files.sh
-    make turtlebot3Editor
     ./run_editor.sh <false or true to use dds server or not> $(pwd) <ue_exe>
     ```
 \* Since the prooject is set to use 
