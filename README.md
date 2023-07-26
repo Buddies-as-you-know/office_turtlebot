@@ -16,7 +16,7 @@ UE Project which includes examples to use rclUE.
 * please check [Getting Started](https://rapyutasimulationplugins.readthedocs.io/en/doc_update/getting_started.html) as well.
 
 1.  Download UE5.1 for Linux by following [Unreal Engine for Linux](https://www.unrealengine.com/en-US/linux)
-2.  Clone this repo : `git clone --recurse-submodules git@github.com:rapyuta-robotics/turtlebot3-UE.git`
+2.  Clone this repo : `git clone --recurse-submodules git@github.com:YuminosukeSato/office_turtlebot.git`
 3.  Retrieve the large files : `git-lfs pull && git submodule foreach git-lfs pull`
 4.  Build and run
     ```
