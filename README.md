@@ -20,8 +20,10 @@ UE Project which includes examples to use rclUE.
 3.  Retrieve the large files : `git-lfs pull && git submodule foreach git-lfs pull`
 4.  Build and run
     ```
-    cd turtlebot3-UE
+    cd office_turtlebot
     export UE5_DIR=<path to UE5>
+    ./update_project_files.sh
+    make turtlebot3Editor
     ./run_editor.sh <false or true to use dds server or not> $(pwd) <ue_exe>
     ```
 \* Since the prooject is set to use 
